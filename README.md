@@ -1,7 +1,9 @@
 # BottomTabView
 
 可以直接复制代码
+
 [BottomTabView.java](/app/src/main/java/cn/ifmvo/bottomtabview/BottomTabView.java)
+
 [view_tab_item.xml](/app/src/main/res/layout/view_tab_item.xml)
 
 ### 使用方法
