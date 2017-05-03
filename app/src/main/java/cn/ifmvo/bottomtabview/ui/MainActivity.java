@@ -64,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 viewPager.setCurrentItem(position, true);
             }
         });
+        bottomTabView.setOnSecondSelectListener(new BottomTabView.OnSecondSelectListener() {
+            @Override
+            public void onSecondSelect(int position) {
+
+            }
+        });
 
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
