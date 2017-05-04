@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
 
-        tabItemViews.add(new BottomTabView.TabItemView(this, "123", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
-        tabItemViews.add(new BottomTabView.TabItemView(this, "123", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
-        tabItemViews.add(new BottomTabView.TabItemView(this, "123", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
-        tabItemViews.add(new BottomTabView.TabItemView(this, "123", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
+        tabItemViews.add(new BottomTabView.TabItemView(this, "标题1", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
+        tabItemViews.add(new BottomTabView.TabItemView(this, "标题2", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
+        tabItemViews.add(new BottomTabView.TabItemView(this, "标题3", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
+        tabItemViews.add(new BottomTabView.TabItemView(this, "标题4", R.color.colorPrimary, R.color.colorAccent, R.mipmap.ic_launcher, R.mipmap.ic_launcher_round));
 
         bottomTabView.setTabItemViews(tabItemViews);
 
