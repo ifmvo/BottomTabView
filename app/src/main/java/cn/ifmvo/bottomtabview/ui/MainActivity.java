@@ -58,34 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
         bottomTabView.setTabItemViews(tabItemViews);
 
-        bottomTabView.setOnTabItemSelectListener(new BottomTabView.OnTabItemSelectListener() {
-            @Override
-            public void onTabItemSelect(int position) {
-                viewPager.setCurrentItem(position, true);
-            }
-        });
-        bottomTabView.setOnSecondSelectListener(new BottomTabView.OnSecondSelectListener() {
-            @Override
-            public void onSecondSelect(int position) {
-
-            }
-        });
-
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-                bottomTabView.updatePosition(position);
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
+        bottomTabView.setUpWithViewPager(viewPager);
     }
 }
