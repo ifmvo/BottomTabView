@@ -21,12 +21,17 @@ tabItemViews.add(new BottomTabView.TabItemView(this, "标题4", R.color.colorPri
 bottomTabView.setTabItemViews(tabItemViews);
 ```
 
+***连接 ViewPager***
+```
+bottomTabView.setUpWithViewPager(viewPager);
+```
+
 ***设置 Item 选择监听***
 ```
 bottomTabView.setOnTabItemSelectListener(new BottomTabView.OnTabItemSelectListener() {
     @Override
     public void onTabItemSelect(int position) {
-        //viewPager.setCurrentItem(position, true);
+        //
     }
 });
 ```
