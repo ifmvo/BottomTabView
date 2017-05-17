@@ -31,7 +31,8 @@ bottomTabView.setUpWithViewPager(viewPager);
 bottomTabView.setOnTabItemSelectListener(new BottomTabView.OnTabItemSelectListener() {
     @Override
     public void onTabItemSelect(int position) {
-        //
+        //viewPager.setCurrentItem(position, true);
+        //...
     }
 });
 ```
